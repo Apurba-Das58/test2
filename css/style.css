@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#hero{
+    height: 100vh;
+    background-image: url("../imgs/add.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(235, 232, 229);
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+#hero .content{
+    height: 200px;
+    width: 400px;
+    text-align: center;
+}
+#hero h1{
+ font-size: 40px;
+ color: rgb(245, 245, 246);
+}
+#hero h3{
+    font-size: 20px;
+    color: black;
+}
+#hero h2{
+     
+    color: rgb(245, 243, 243);
+}
+#hero button{
+    padding: 10px 40px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background: linear-gradient(to left, rgb(84, 228, 247),blue);
+    color: rgb(26, 26, 25);
+    border: 3px solid rgb(235, 9, 9);
+    border-radius: 25px;
+    cursor: pointer;
+}
+#hero button:hover{
+    background: linear-gradient(to left, blue,rgb(114, 245, 238));
+
+}
